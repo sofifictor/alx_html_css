@@ -1,0 +1,24 @@
+/* Set body to flex column */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Set main to flex row */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Article should take 2/3 of the space */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+/* Aside should take 1/3 of the space */
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
