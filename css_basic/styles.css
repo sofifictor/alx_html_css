@@ -22,3 +22,25 @@ aside {
   flex: 1;
   overflow-y: auto;
 }
+/* Center the body content and give max width */
+body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Add padding and background to header, main, and footer */
+header, main, footer {
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+/* Set text color for article and footer */
+article, footer {
+  color: #333;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
